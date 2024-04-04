@@ -1,0 +1,50 @@
+.mission-container,
+.service-container,
+.highlight-container,
+.faq-container,
+.payment-container {
+    display: flex;
+    background-color: #8e7f6b;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #8e7f6b;
+    color: #fff;
+}
+
+.service-container,
+.highlight-container,
+.faq-container {
+    background-color: #f2ede3;
+    color: #938f86;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #8e7f6b;
+    /* color: #fff; */
+}
+
+.section-titles {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+.section-descriptions {
+    font-family: 'Crimson Text', serif;
+    margin-top: -80px;
+    font-size: 32px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 40rem;
+    /* background-color: pink; */
+}

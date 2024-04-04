@@ -1,0 +1,58 @@
+import './Payment.css';
+import { CORE_PAYMENT } from './paymentData';
+
+export default function Payment() {
+    return (
+        <>
+            <div className="app-container">
+                <div className="img-app-container">
+                    <img
+                        className="mock-first-image"
+                        src="./src/assets/app-mok.png"
+                    />
+                    <img
+                        className="mock-second-image"
+                        src="./src/assets/app-mock.png"
+                    />
+                </div>
+                <div className="text-app-container">
+                    <p>
+                        {' '}
+                        Ready to elevate your experience with us? Download our
+                        app now and unlock a world of convenience and perks!
+                        With our app, you can effortlessly book our top-notch
+                        services, all at your fingertips. But that's not all –
+                        dive into a treasure trove of rewards, exclusive
+                        promotions, and our full range of services anytime,
+                        anywhere.{' '}
+                    </p>
+                    <p>
+                        <b>
+                            Score and enjoy $25 off any service with a quick app
+                            download.
+                        </b>
+                    </p>
+                    <div className="app-badges">
+                        <a
+                            href="https://play.google.com/store/search?q=repeatmd&c=apps&hl=en_US&gl=US"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                className="app-badge-google"
+                                src="/src/assets/google-play-badge.png"
+                            />
+                        </a>
+                        <a
+                            href="https://apps.apple.com/us/app/myrepeat-patient-rewards/id6448703360"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img src="/src/assets/apple-app.svg" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </>
+    );
+}

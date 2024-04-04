@@ -1,0 +1,46 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.img-app-container {
+    position: relative; /* Ensure the container is positioned relatively */
+    width: 50%; /* Ensure the container fills its parent */
+}
+
+.img-app-container img {
+    max-width: 60%;
+    height: auto;
+}
+
+.mock-second-image {
+    position: absolute;
+    max-width: 20%;
+    top: 70px;
+    left: 50%;
+    z-index: 1;
+}
+
+.text-app-container {
+    width: 50%; /* Adjust the width as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Add padding as needed */
+}
+
+.overlay-text-two {
+    background-color: green;
+    opacity: 0.5;
+    color: white;
+    font-size: 12px;
+    width: 20%;
+}
+
+.app-badges {
+    display: flex;
+    gap: 20px;
+}

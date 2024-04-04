@@ -1,0 +1,193 @@
+.service-div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.service-box {
+    height: 30rem;
+    max-width: 20rem;
+    gap: 15px;
+    /* background-color: green; */
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: transform 0.3s;
+    pointer-events: auto;
+}
+
+/* Add overlay styling for service-box on hover */
+.service-box:hover::before {
+    display: block;
+    content: ''; /* Create pseudo-element */
+    position: absolute; /* Position relative to service-box */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: #ffffffb3; */
+    z-index: 1;
+}
+
+/* Hide overlay by default */
+.service-box::before {
+    content: '';
+    display: none;
+}
+
+.service-box img {
+    max-width: 35rem; /* Ensure images resize proportionally */
+    height: 100%; /* Maintain image aspect ratio */
+    margin-left: -170px;
+}
+
+.third-img img {
+    max-width: 40rem; /* Ensure images resize proportionally */
+    height: 100%; /* Maintain image aspect ratio */
+    margin-left: -1px;
+}
+
+.overlay-text {
+    color: #fff;
+    font-size: 2em;
+    align-self: center;
+    position: absolute;
+    z-index: 10;
+    font-family: 'Aboreto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.service-box:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    z-index: 20;
+}
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content,
+.model-content2,
+.model-content3 {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999; /* Ensure overlay appears above other elements */
+}
+
+/* Modal styles (adjust as needed) */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000; /* Ensure modal appears above overlay */
+}
+
+.modal-content h3,
+h4 {
+    font-family: 'Playfair Display';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+.modal-content p {
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 1.5px;
+}
+
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #8e7f6b;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #8e7f6b;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roobert, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+        Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+    min-height: 60px;
+    min-width: 0;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 20%;
+    will-change: transform;
+}
+
+.button-28:disabled {
+    pointer-events: none;
+}
+
+.button-28:hover {
+    color: #fff;
+    background-color: #8e7f6b;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+}

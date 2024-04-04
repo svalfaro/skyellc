@@ -1,0 +1,79 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: #8e7f6b;
+    z-index: 1000;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.title-top {
+    color: #333;
+}
+
+.title-bottom {
+    color: #f2ede3; /* Adjust color as needed */
+    font-size: 12px;
+}
+
+img {
+    max-width: 100px; /* Set the maximum width of your logo */
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    letter-spacing: 2.5px;
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        list-style-type: none;
+        align-items: center;
+        gap: 13px;
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    }
+
+    li {
+        font-family: 'Aboreto';
+        font-weight: 400;
+        font-style: normal;
+        margin-right: 20px;
+        opacity: 0.7;
+    }
+
+    li:hover {
+        /* background-color: #f2ede3; */
+        cursor: pointer;
+        transition: 2.5s background ease;
+    }
+
+    li a:hover {
+        color: #333;
+    }
+
+    li:last-child {
+        margin-right: 35px; /* Remove right margin for the last link to avoid extra space */
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 30px;
+        font-weight: 500;
+        color: #f2ede3;
+    }
+}

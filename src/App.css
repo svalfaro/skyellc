@@ -1,0 +1,31 @@
+#root {
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding: 2.6rem; */
+    text-align: center;
+}
+
+body {
+    padding-top: 118px;
+    margin: 0;
+    font-family: 'Georgia';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 1.5px;
+}
+
+h1,
+h2 {
+    font-family: 'Aboreto', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+}
+
+main {
+    margin-top: 0;
+    padding-top: 20px;
+    margin-top: 10px;
+    width: 100%;
+}

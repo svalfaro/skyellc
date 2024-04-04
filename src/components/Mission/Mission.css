@@ -1,0 +1,10 @@
+.mission-statement {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30rem;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
