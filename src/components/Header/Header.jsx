@@ -1,4 +1,4 @@
-import { NAV_LINKS } from './components/Header/headerLinks.js';
+import { NAV_LINKS } from 'skyllc/src/components/Header/headerLinks.js';
 import './Header.css';
 
 export default function Header() {
