@@ -1,6 +1,6 @@
-import bottle from './assets/bottle-hl.png';
-import lightbulb from './assets/lightbulb-hl.png';
-import chat from './assets/chat-hl.png';
+import bottle from '/src/assets/bottle-hl.png';
+import lightbulb from '/src/assets/lightbulb-hl.png';
+import chat from '/src/assets/chat-hl.png';
 
 export const CORE_HIGHLIGHT = [
     {
