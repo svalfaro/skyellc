@@ -1,5 +1,4 @@
 import { NAV_LINKS } from '/src/components/Header/headerLinks.js';
-import logo from '/src/assets/skye-logo.png';
 import './Header.css';
 
 export default function Header() {
