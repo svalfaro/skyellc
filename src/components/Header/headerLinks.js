@@ -1,22 +1,22 @@
 export const NAV_LINKS = [
     {
         id: 'service',
-        title: 'Service',
+        title: 'SERVICE',
     },
     {
         id: 'mission',
-        title: 'Mission',
+        title: 'MISSION',
     },
     {
         id: 'intro',
-        title: 'Appointment',
+        title: 'APPOINTMENT',
     },
     {
         id: 'payment',
-        title: 'App',
+        title: 'APP',
     },
     {
         id: 'faq',
-        title: 'faq',
+        title: 'FAQ',
     },
 ];
