@@ -8,11 +8,11 @@ export default function Payment() {
                 <div className="img-app-container">
                     <img
                         className="mock-first-image"
-                        src="./src/assets/app-mok.png"
+                        src="/assets/app-mok.png"
                     />
                     <img
                         className="mock-second-image"
-                        src="./src/assets/app-mock.png"
+                        src="/assets/app-mock.png"
                     />
                 </div>
                 <div className="text-app-container">
@@ -40,7 +40,7 @@ export default function Payment() {
                         >
                             <img
                                 className="app-badge-google"
-                                src="/src/assets/google-play-badge.png"
+                                src="/assets/google-play-badge.png"
                             />
                         </a>
                         <a
@@ -48,7 +48,7 @@ export default function Payment() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/src/assets/apple-app.svg" />
+                            <img src="/assets/apple-app.svg" />
                         </a>
                     </div>
                 </div>

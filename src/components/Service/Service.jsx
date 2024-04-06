@@ -27,7 +27,7 @@ export default function Service() {
                     onClick={toggleModal}
                 >
                     <img
-                        src="./src/assets/serviceOne.png"
+                        src="/assets/serviceOne.png"
                         alt="Service One"
                     />
                     <div className="overlay-text">
@@ -40,7 +40,7 @@ export default function Service() {
                     onClick={toggleModal2}
                 >
                     <img
-                        src="./src/assets/serviceThree.png"
+                        src="/assets/serviceThree.png"
                         alt="Service One"
                     />
                     <div className="overlay-text">
@@ -52,7 +52,7 @@ export default function Service() {
                     onClick={toggleModal3}
                 >
                     <img
-                        src="./src/assets/serviceTwo.png"
+                        src="/assets/serviceTwo.png"
                         alt="Service One"
                     />
                     <div className="overlay-text">

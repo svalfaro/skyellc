@@ -24,7 +24,7 @@ export default function Generic() {
                 </div>
 
                 <div className="img-header-container">
-                    <img src="./src/assets/header.png" />
+                    <img src="/assets/header.png" />
                 </div>
             </div>
         </>
