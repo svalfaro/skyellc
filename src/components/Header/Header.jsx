@@ -5,6 +5,9 @@ export default function Header() {
     return (
         <>
             <header>
+                <div nameClass="header-logo">
+                    <img src="/assets/skye-logo-bcg.png" />
+                </div>
                 <h1 className="title">
                     <span className="title-top">SKYE</span>
                     <span className="title-bottom">Wellness & Aesthetics</span>

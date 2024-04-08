@@ -31,24 +31,24 @@ export default function Service() {
                         alt="Service One"
                     />
                     <div className="overlay-text">
-                        <p>Rejuvenation</p>
+                        <p>REJUVENATION</p>
                     </div>
                 </div>
                 {/* Repeat for other service boxes */}
                 <div
-                    className="service-box third-img"
+                    className="service-box"
                     onClick={toggleModal2}
                 >
                     <img
-                        src="/assets/serviceThree.png"
+                        src="/assets/second-im-img.png"
                         alt="Service One"
                     />
                     <div className="overlay-text">
-                        <p>IM Vitamins</p>
+                        <p>IM VITAMINS</p>
                     </div>
                 </div>
                 <div
-                    className="service-box"
+                    className="service-box third-img"
                     onClick={toggleModal3}
                 >
                     <img
@@ -56,7 +56,7 @@ export default function Service() {
                         alt="Service One"
                     />
                     <div className="overlay-text">
-                        <p>Weight Management</p>
+                        <p>WEIGHT MANAGEMENT</p>
                     </div>
                 </div>
             </div>

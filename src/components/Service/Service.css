@@ -9,8 +9,7 @@
 
 .service-box {
     height: 30rem;
-    max-width: 20rem;
-    gap: 15px;
+    max-width: 26rem;
     /* background-color: green; */
     overflow: hidden;
     position: relative;
@@ -42,34 +41,32 @@
 }
 
 .service-box img {
-    max-width: 35rem; /* Ensure images resize proportionally */
+    max-width: 45rem; /* Ensure images resize proportionally */
     height: 100%; /* Maintain image aspect ratio */
-    margin-left: -170px;
-}
-
-.third-img img {
-    max-width: 40rem; /* Ensure images resize proportionally */
-    height: 100%; /* Maintain image aspect ratio */
-    margin-left: -1px;
+    /* overflow: hidden; */
+    position: relative;
 }
 
 .overlay-text {
     color: #fff;
-    font-size: 2em;
+    font-size: 2.5em;
     align-self: center;
     position: absolute;
-    z-index: 10;
-    font-family: 'Aboreto';
+    z-index: 0;
+    font-family: 'Poiret One';
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
 }
 
 .service-box:hover {
     cursor: pointer;
     transform: scale(1.05);
-    z-index: 20;
+    z-index: 0;
 }
+
+/* .third-img {
+    width: 25rem;
+} */
 
 .modal {
     display: block;

@@ -21,7 +21,7 @@ export default function Faq() {
                     out to us beforehand.{' '}
                 </p>
             </details>
-            <details>
+            {/* <details>
                 <summary>
                     Do I need to follow any aftercare instructions after a
                     service?
@@ -40,7 +40,7 @@ export default function Faq() {
                     </a>{' '}
                     to download HydraSKYE Facial aftercare instructions.{' '}
                 </p>
-            </details>
+            </details> */}
             <details>
                 <summary>What are your operating hours?</summary>
                 <p>
