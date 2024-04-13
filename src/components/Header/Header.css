@@ -5,39 +5,34 @@ header {
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     background-color: #8e7f6b;
     z-index: 100;
 }
 
-.header-logo {
-    max-width: 100px;
-    margin-right: 20px;
-}
-
 .title {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 50px;
+    /* font-size: 50px; */
     font-weight: bold;
 }
 
 .title-top {
+    font-size: 43px;
     color: #333;
 }
 
 .title-bottom {
-    color: #f2ede3; /* Adjust color as needed */
-    font-size: 16px;
-}
-
-img {
-    max-width: 100px; /* Set the maximum width of your logo */
+    color: #f2ede3;
+    font-size: 15px;
+    max-width: 120px;
 }
 
 nav {
-    width: 80%;
+    width: 70%;
+    margin-left: 20px;
     display: flex;
     align-items: center;
     justify-content: flex-end;

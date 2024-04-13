@@ -21,7 +21,7 @@
 
 .text-description {
     font-family: 'Crimson Text', serif;
-    font-size: 2vw;
+    font-size: 2.5vw;
     line-height: 1.5;
 }
 
@@ -29,9 +29,20 @@
     position: relative;
 }
 
-.img-header-container img {
+.img-header {
     /* position: relative; */
     max-width: 100%;
+    height: auto;
+    z-index: 3;
+}
+
+.header-logo img {
+    position: absolute;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 80%;
+    width: 38%;
     height: auto;
     z-index: 3;
 }
@@ -55,14 +66,16 @@
 
 .schedule-btn {
     appearance: none;
-    background-color: transparent;
+    background-color: #c39767;
     border: 2px solid #fff;
     border-radius: 15px;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
-    font-family: Georgia;
-    font-size: 16px;
+    font-family: 'Playfair Display';
+    font-size: 17px;
+    letter-spacing: 2px;
+    /* font-style: italic; */
     font-weight: 600;
     line-height: normal;
     padding: 16px 24px;
@@ -76,7 +89,7 @@
 
 .schedule-btn:hover {
     color: #fff;
-    background-color: #c39767;
+    background-color: #8e7e6c;
     box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
     transform: translateY(-2px);
 }

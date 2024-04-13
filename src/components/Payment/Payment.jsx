@@ -17,14 +17,14 @@ export default function Payment() {
                 </div>
                 <div className="text-app-container">
                     <p>
-                        {' '}
                         Ready to elevate your experience with us? Download our
                         app now and unlock a world of convenience and perks!
-                        With our app, you can effortlessly book our top-notch
-                        services, all at your fingertips. But that's not all –
-                        dive into a treasure trove of rewards, exclusive
-                        promotions, and our full range of services anytime,
-                        anywhere.{' '}
+                        <p>
+                            Effortlessly book our services, all at your
+                            fingertips. But that's not all – dive into a
+                            treasure trove of rewards, exclusive promotions, and
+                            our full range of services anytime, anywhere.
+                        </p>
                     </p>
                     <p>
                         <b>
@@ -48,7 +48,10 @@ export default function Payment() {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            <img src="/assets/apple-app.svg" />
+                            <img
+                                className="app-badge-apple"
+                                src="/assets/apple-app.svg"
+                            />
                         </a>
                     </div>
                 </div>

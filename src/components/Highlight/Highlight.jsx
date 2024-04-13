@@ -8,6 +8,7 @@ export default function Highlight() {
                 {CORE_HIGHLIGHT.map((coreHighlight, index) => (
                     <section key={index}>
                         <img
+                            className="highlight-img"
                             src={coreHighlight.img}
                             alt="highlight image"
                         />

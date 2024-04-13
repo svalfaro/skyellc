@@ -18,3 +18,8 @@
 .highlight-description {
     max-width: 400px;
 }
+
+.highlight-img {
+    max-width: 100px;
+    height: auto;
+}

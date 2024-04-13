@@ -42,5 +42,16 @@
 
 .app-badges {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.app-badge-google {
+    width: 230px;
+}
+
+.app-badge-apple {
+    width: 180px;
 }

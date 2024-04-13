@@ -5,7 +5,13 @@ export default function Generic() {
         <>
             <div className="intro-container">
                 <div className="img-header-container">
-                    <img src="/assets/header.png" />
+                    <img
+                        className="img-header"
+                        src="/assets/header.png"
+                    />
+                    <div className="header-logo">
+                        <img src="/assets/skye-logo-bcg.png" />
+                    </div>
                     <div className="overlay-text-header">
                         <div className="text-container">
                             <div className="text">

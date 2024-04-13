@@ -49,11 +49,11 @@
 
 .overlay-text {
     color: #fff;
-    font-size: 2.5em;
+    font-size: 1.7em;
     align-self: center;
     position: absolute;
     z-index: 0;
-    font-family: 'Poiret One';
+    font-family: 'Playfair Display';
     font-weight: 400;
     font-style: normal;
 }
@@ -63,10 +63,6 @@
     transform: scale(1.05);
     z-index: 0;
 }
-
-/* .third-img {
-    width: 25rem;
-} */
 
 .modal {
     display: block;
