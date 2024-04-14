@@ -30,19 +30,21 @@
 
     .img-header-container {
         position: relative;
+        width: 100vw;
+        overflow-x: hidden;
     }
 
     .img-header {
         /* position: relative; */
         margin-left: -150px;
-        max-width: 65rem;
+        max-width: 50em;
         height: auto;
         z-index: 3;
     }
 
     .header-logo img {
         position: absolute;
-        top: 32%;
+        top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
         max-width: 80%;
@@ -115,6 +117,10 @@
     .service-box {
         height: auto;
         max-width: 20rem;
+    }
+
+    .service-box:hover {
+        visibility: hidden;
     }
 
     .overlay-text {
