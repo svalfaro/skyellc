@@ -1,3 +1,5 @@
+@import '/src/styles/breakpoints.css';
+
 .mission-statement {
     display: flex;
     flex-wrap: wrap;

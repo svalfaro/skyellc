@@ -1,4 +1,5 @@
 import './Service.css';
+import '/src/styles/breakpoints.css';
 import React, { useState } from 'react';
 
 export default function Service() {
@@ -28,32 +29,31 @@ export default function Service() {
                 >
                     <img
                         src="/assets/serviceOne.png"
-                        alt="Service One"
+                        alt="facials"
                     />
                     <div className="overlay-text">
                         <p>REJUVENATION</p>
                     </div>
                 </div>
-                {/* Repeat for other service boxes */}
                 <div
                     className="service-box"
                     onClick={toggleModal2}
                 >
                     <img
                         src="/assets/second-im-img.png"
-                        alt="Service One"
+                        alt="im vitamins"
                     />
                     <div className="overlay-text">
                         <p>IM VITAMINS</p>
                     </div>
                 </div>
                 <div
-                    className="service-box third-img"
+                    className="service-box"
                     onClick={toggleModal3}
                 >
                     <img
-                        src="/assets/serviceTwo.png"
-                        alt="Service One"
+                        src="/assets/serviceThird.png"
+                        alt="weight management service"
                     />
                     <div className="overlay-text">
                         <p>WEIGHT MANAGEMENT</p>

@@ -57,9 +57,7 @@ export default function Faq() {
                 </p>
             </details>
             <details>
-                <summary>
-                    Does SKYE Wellness & Aesthetics accept my insurance?
-                </summary>
+                <summary>Do you accept health insurance?</summary>
                 <p>
                     No. SKYE does not accept insurance at this time. However, we
                     do accept major credit cards and cash for payment.

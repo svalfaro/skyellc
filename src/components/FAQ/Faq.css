@@ -1,8 +1,4 @@
-/* section {
-    padding-top: 4rem;
-    width: 50%;
-    margin: auto;
-} */
+@import '/src/styles/breakpoints.css';
 
 details[open] summary ~ * {
     animation: open 0.3s ease-in-out;
@@ -19,12 +15,12 @@ details[open] summary ~ * {
 }
 
 details summary {
-    width: 50rem;
+    width: 16rem;
     padding: 0.8rem 0;
     border-top: 1px solid #8e7f6b;
     position: relative;
     cursor: pointer;
-    font-size: 1.35rem;
+    font-size: 1rem;
     font-weight: 300;
     list-style: none;
 }
@@ -33,9 +29,9 @@ details summary:after {
     content: '\25B8';
     color: #8e7f6b;
     position: absolute;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     line-height: 0;
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
     right: 0;
     transition: 250ms linear;
 }
@@ -43,7 +39,7 @@ details summary:after {
 details[open] summary:after {
     content: '\25B9';
     transform: rotate(90deg);
-    font-size: 2rem;
+    font-size: 0.9rem;
 }
 
 details summary {
@@ -51,7 +47,8 @@ details summary {
 }
 
 details p {
-    font-size: 1.2rem;
+    width: 16rem;
+    font-size: 0.9rem;
     margin: 0 0 1rem;
     padding-top: 1rem;
 }
