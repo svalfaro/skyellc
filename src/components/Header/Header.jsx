@@ -34,9 +34,34 @@ export default function Header() {
                     className="burger-menu"
                     onClick={toggleMenu}
                 >
-                    <div className="bar"></div>
-                    <div className="bar"></div>
-                    <div className="bar"></div>
+                    <input
+                        type="checkbox"
+                        id="burger-toggle"
+                    />
+                    <label
+                        htmlFor="burger-toggle"
+                        className="burger-icon"
+                    >
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                    <nav className="menu">
+                        <ul>
+                            <li>
+                                <a href={`#${NAV_LINKS[0].id}`}>Service</a>
+                            </li>
+                            <li>
+                                <a href={`#${NAV_LINKS[1].id}`}>Mission</a>
+                            </li>
+                            <li>
+                                <a href={`#${NAV_LINKS[2].id}`}>Appointment</a>
+                            </li>
+                            <li>
+                                <a href={`#${NAV_LINKS[4].id}`}>FAQ</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </header>
             {/* Conditional rendering of the navigation menu */}

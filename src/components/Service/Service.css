@@ -125,7 +125,7 @@ h4 {
     font-family: 'Playfair Display';
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    font-size: 2.6vw;
 }
 
 h4 {
@@ -137,7 +137,13 @@ h4 {
     font-weight: 400;
     font-style: normal;
     font-size: 17px;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.1px;
+    margin-bottom: 50px;
+}
+
+.modal-logo-img {
+    width: 150px;
+    opacity: 0.8;
 }
 
 .button-28 {
@@ -152,7 +158,7 @@ h4 {
     font-family: Roobert, -apple-system, BlinkMacSystemFont, 'Segoe UI',
         Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol';
-    font-size: 16px;
+    font-size: 2.5vw;
     font-weight: 600;
     line-height: normal;
     margin: 0;
@@ -166,8 +172,9 @@ h4 {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 20%;
+    width: 30vw;
     will-change: transform;
+    margin-bottom: 25px;
 }
 
 .button-28:disabled {

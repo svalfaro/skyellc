@@ -73,24 +73,36 @@ export default function Service() {
                         >
                             ×
                         </span>
-                        <h3>
-                            FACIAL <b>BENEFITS</b>
-                        </h3>
-                        <p>
-                            SKYE facials and treatments are great choices for
-                            healthy, glowing skin without surgery. Target
-                            specific concerns like rosacea and acne while
-                            promoting hydration, skin regeneration, and overall
-                            skin health. Achieve skin tightening, anti-aging
-                            effects, and a radiant complexion. Our treatments
-                            are inspired by Korean beauty standards, aiming for
-                            flawless, translucent skin, minimized pores, and
-                            enhanced clarity. Whether you're seeking visible
-                            results or a holistic approach to skin rejuvenation,
-                            our facials deliver tailored solutions for your
-                            skincare needs.
-                        </p>
-                        <button className="button-28">Book Now</button>
+                        <img
+                            className="modal-logo-img"
+                            src="/assets/skye-circular-logo.png"
+                        />
+                        <div nameClass="modal-content-container">
+                            <h3>FACIAL BENEFITS</h3>
+                            <p>
+                                SKYE facials and treatments are great choices
+                                for healthy, glowing skin without surgery.
+                                Target specific concerns like rosacea and acne
+                                while promoting hydration, skin regeneration,
+                                and overall skin health. Achieve skin
+                                tightening, anti-aging effects, and a radiant
+                                complexion. Our treatments are inspired by
+                                Korean beauty standards, aiming for flawless,
+                                translucent skin, minimized pores, and enhanced
+                                clarity. Whether you're seeking visible results
+                                or a holistic approach to skin rejuvenation, our
+                                facials deliver tailored solutions for your
+                                skincare needs.
+                            </p>
+                            <a
+                                href="https://book.squareup.com/appointments/ywgktytcdyd80f/location/LKDSQ0FC4DCAH/services"
+                                target="_blank"
+                            >
+                                <button className="button-28">
+                                    LEARN MORE
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             )}
@@ -104,61 +116,36 @@ export default function Service() {
                         >
                             ×
                         </span>
-                        <h3>WHAT IS INTRAMUSCULAR (IM) INJECTION TREATMENT?</h3>
-                        <p>
-                            Experience the power of our IM Injection treatment
-                            for direct, targeted health benefits. Administered
-                            by Christine Villamayor, NP for maximum impact, it
-                            delivers essential nutrients directly into your
-                            muscles for immediate absorption. Whether you need
-                            an energy boost, immune support, appetite control,
-                            or glowing skin, our treatment is tailored to your
-                            needs. Say goodbye to fatigue and hello to vitality,
-                            and unlock a healthier, radiant you with our IM
-                            Injection treatment.
-                        </p>
-
-                        <h4>WHAT IS B12 (Methylcobalamin)?</h4>
-                        <p>Increase Energy Level.</p>
-
-                        <h4>WHAT IS GLUTATHIONE?</h4>
-                        <p>
-                            Glutathione plays a crucial role in repairing cells
-                            damaged by pollution, stress, and other harmful
-                            influences. Brighter skin. Body detoxification.
-                            Powerful antioxidant.
-                        </p>
-
-                        <h4>WHAT IS THE TRI-IMMUNE BOOST?</h4>
-                        <p>
-                            Zinc + Vitamin C + Glutathione. Ultimate immune
-                            system enhancer to help maintain a healthy immune
-                            response.
-                        </p>
-
-                        <h4>WHAT IS THE LIPOSTAT PLUS?</h4>
-                        <p>
-                            Suppress Appetite. Enhance Energy Production.
-                            Improve overall Metabolism.
-                        </p>
-
-                        <h4>
-                            What's the difference between Skinny Shots and
-                            Sulfur-Free Skinny Shots?
-                        </h4>
-                        <p>
-                            Glutathione plays a crucial role in repairing cells
-                            damaged by pollution, stress, and other harmful
-                            influences.
-                        </p>
-
-                        <h4>WHAT IS THE LIPO MINI MIX?</h4>
-                        <p>
-                            Improve energy and fat metabolism. Reduce recovery
-                            time and promote muscle-building.
-                        </p>
-
-                        <button className="button-28">Book Now</button>
+                        <img
+                            className="modal-logo-img"
+                            src="/assets/skye-circular-logo.png"
+                        />
+                        <div nameClass="modal-content-container">
+                            <h3>
+                                WHAT IS INTRAMUSCULAR (IM) INJECTION TREATMENT?
+                            </h3>
+                            <p>
+                                Experience the power of our IM Injection
+                                treatment for direct, targeted health benefits.
+                                Administered by Christine Villamayor, NP for
+                                maximum impact, it delivers essential nutrients
+                                directly into your muscles for immediate
+                                absorption. Whether you need an energy boost,
+                                immune support, appetite control, or glowing
+                                skin, our treatment is tailored to your needs.
+                                Say goodbye to fatigue and hello to vitality,
+                                and unlock a healthier, radiant you with our IM
+                                Injection treatment.
+                            </p>
+                            <a
+                                href="https://book.squareup.com/appointments/ywgktytcdyd80f/location/LKDSQ0FC4DCAH/services/JE45D2Y6W5N5ZODUIUVJ2JKD"
+                                target="_blank"
+                            >
+                                <button className="button-28">
+                                    LEARN MORE
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             )}
@@ -172,19 +159,32 @@ export default function Service() {
                         >
                             ×
                         </span>
-                        <h3>WEIGHT MANAGEMENT</h3>
-                        <p>
-                            SKYE's Weight Management Therapy Program boosts your
-                            body's human growth hormone (hGH) levels to
-                            naturally curb cravings, burn fat, and build muscle
-                            safely and effectively. Our kit includes Naltrexone,
-                            Sermorelin, Lipo-Trim SL, and a controlled
-                            low-calorie diet to maximize weight loss. Christine
-                            Villamayor, NP will personally guide you one-on-one,
-                            setting clear goals to help you achieve your target
-                            health results.
-                        </p>
-                        <button className="button-28">Book Now</button>
+                        <img
+                            className="modal-logo-img"
+                            src="/assets/skye-circular-logo.png"
+                        />
+                        <div nameClass="modal-content-container">
+                            <h3>WEIGHT MANAGEMENT</h3>
+                            <p>
+                                SKYE's Weight Management Therapy Program boosts
+                                your body's human growth hormone (hGH) levels to
+                                naturally curb cravings, burn fat, and build
+                                muscle safely and effectively. Our kit includes
+                                Naltrexone, Sermorelin, Lipo-Trim SL, and a
+                                controlled low-calorie diet to maximize weight
+                                loss. Christine Villamayor, NP will personally
+                                guide you one-on-one, setting clear goals to
+                                help you achieve your target health results.
+                            </p>
+                            <a
+                                href="https://book.squareup.com/appointments/ywgktytcdyd80f/location/LKDSQ0FC4DCAH/services"
+                                target="_blank"
+                            >
+                                <button className="button-28">
+                                    LEARN MORE
+                                </button>
+                            </a>
+                        </div>
                     </div>
                 </div>
             )}

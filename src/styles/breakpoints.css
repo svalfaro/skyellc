@@ -116,7 +116,312 @@
 
     .service-box {
         height: auto;
+        width: 95vw;
+        /* overflow-x: hidden; */
+    }
+
+    .service-box:hover::before {
+        visibility: hidden;
+    }
+
+    .overlay-text {
+        font-size: 1.9em;
+    }
+
+    .individual-highlights {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    /* for HIGHLIGHT DIV */
+    .highlight-header {
+        font-size: 6.5vw;
+    }
+
+    .highlight-description {
+        max-width: 300px;
+    }
+
+    .highlight-img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .button-28 {
+        font-size: 3.2vw;
+        width: 35vw;
+    }
+
+    .modal-content h3 {
+        font-size: 5vw;
+    }
+
+    .modal-content p {
+        font-size: 3.5vw;
+    }
+
+    /* for MISSION DIV */
+    .mission-statement {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
         max-width: 20rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        opacity: 0.7;
+        /* background-color: green; */
+    }
+
+    /* for PAYMENT DIV */
+
+    .app-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .img-app-container {
+        width: 50%; /* Ensure the container fills its parent */
+    }
+
+    .img-app-container img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .mock-second-image {
+        max-width: 30%;
+    }
+
+    .text-app-container {
+        width: 80%; /* Adjust the width as needed */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px; /* Add padding as needed */
+    }
+
+    .overlay-text-two {
+        background-color: green;
+        opacity: 0.5;
+        color: white;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    .app-badges {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .app-badge-google {
+        width: 130px;
+    }
+
+    .app-badge-apple {
+        width: 110px;
+    }
+
+    /* for FAQ DIV */
+    .faq-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center;
+        align-items: center;
+        gap: 100px; */
+        max-width: 50rem;
+    }
+
+    details summary {
+        width: 16rem;
+        padding: 0.8rem 0;
+        border-top: 1px solid #8e7f6b;
+        position: relative;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: 300;
+        list-style: none;
+    }
+
+    /* details summary:after {
+        content: '\25B8';
+        color: #8e7f6b;
+        position: absolute;
+        font-size: 0.8rem;
+        line-height: 0;
+        margin-top: 0.2;
+        margin-right: -1rem;
+        transition: 250ms linear;
+    }
+
+    details[open] summary:after {
+        content: '\25B9';
+        transform: rotate(90deg);
+        font-size: 0.8rem;
+    } */
+
+    details summary {
+        outline: 0;
+    }
+
+    details p {
+        width: 16rem;
+        font-size: 0.9rem;
+        margin: 0 0 1rem;
+        padding-top: 1rem;
+    }
+
+    details a {
+        color: #8e7f6b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    details a:hover {
+        text-decoration: underline;
+    }
+
+    /* for FOOTER DIV */
+    .slogan {
+        font-size: 60px;
+    }
+
+    .footer-core {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 430px) {
+    /* for INTRO DIV */
+
+    .intro-container {
+        position: relative;
+    }
+
+    .text-container {
+        text-align: center;
+        color: white;
+    }
+
+    .text {
+        font-family: 'Playfair Display', serif;
+        font-size: 10vw;
+        line-height: 0.8;
+        margin-bottom: 10px;
+    }
+
+    .text-span {
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    .text-description {
+        font-family: 'Crimson Text', serif;
+        font-size: 0.75rem;
+        line-height: 1.5;
+    }
+
+    .img-header-container {
+        position: relative;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .img-header {
+        /* position: relative; */
+        margin-left: -150px;
+        max-width: 50em;
+        height: auto;
+        z-index: 3;
+    }
+
+    .header-logo img {
+        position: absolute;
+        top: 29%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        width: 38%;
+        height: auto;
+        z-index: 3;
+    }
+
+    .overlay-text-header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        z-index: 0;
+    }
+
+    /* for HEADER DIV */
+
+    .header-title-container {
+        display: flex;
+        /* background-color: green; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 150px;
+        /* font-size: 50px; */
+        font-weight: bold;
+    }
+
+    .title-top {
+        font-size: 40px;
+        color: #333;
+    }
+
+    .title-bottom {
+        color: #f2ede3;
+        font-size: 13px;
+        max-width: 120px;
+    }
+
+    .section-titles {
+        font-size: 9.5vw;
+        line-height: 35px;
+    }
+
+    .section-descriptions {
+        font-size: 1.2rem;
+        margin-top: -25px;
+        line-height: 25px;
+        max-width: 21.5rem;
+    }
+
+    .nav-links ul {
+        display: none;
+    }
+
+    /* for SERVICE DIV */
+
+    .service-box {
+        height: auto;
+        width: 95vw;
     }
 
     .service-box:hover {
@@ -221,8 +526,8 @@
         flex-direction: column;
         flex-wrap: wrap;
         /* justify-content: center;
-        align-items: center;
-        gap: 100px; */
+            align-items: center;
+            gap: 100px; */
         max-width: 50rem;
     }
 
@@ -237,22 +542,22 @@
         list-style: none;
     }
 
-    details summary:after {
-        content: '\25B8';
-        color: #8e7f6b;
-        position: absolute;
-        font-size: 0.8rem;
-        line-height: 0;
-        margin-top: 0.2;
-        margin-right: -1rem;
-        transition: 250ms linear;
-    }
-
-    details[open] summary:after {
-        content: '\25B9';
-        transform: rotate(90deg);
-        font-size: 0.8rem;
-    }
+    /* details summary:after {
+            content: '\25B8';
+            color: #8e7f6b;
+            position: absolute;
+            font-size: 0.8rem;
+            line-height: 0;
+            margin-top: 0.2;
+            margin-right: -1rem;
+            transition: 250ms linear;
+        }
+    
+        details[open] summary:after {
+            content: '\25B9';
+            transform: rotate(90deg);
+            font-size: 0.8rem;
+        } */
 
     details summary {
         outline: 0;
@@ -289,10 +594,22 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-    /* .service-div {
-        flex-direction: column;
-    } */
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+    .nav-links ul {
+        display: none;
+    }
+    /* for INTRO DIV */
+
+    .header-logo img {
+        position: absolute;
+        top: 23%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 80%;
+        width: 20%;
+        height: auto;
+        z-index: 3;
+    }
 
     /* for SERVICES DIV */
     .service-box {
@@ -309,28 +626,159 @@
         flex-direction: column;
     }
 
-    /* for HIGHLIGHT DIV */
+    /* for PAYMENT DIV */
 
-    nav ul {
-        margin-right: -50px;
+    .app-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
     }
 
-    .burger-menu {
+    .img-app-container {
+        width: 50%; /* Ensure the container fills its parent */
+    }
+
+    .img-app-container img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .mock-second-image {
+        max-width: 30%;
+    }
+
+    .text-app-container {
+        width: 80%; /* Adjust the width as needed */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 20px; /* Add padding as needed */
+    }
+
+    .overlay-text-two {
+        background-color: green;
+        opacity: 0.5;
+        color: white;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    .app-badges {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .app-badge-google {
+        width: 130px;
+    }
+
+    .app-badge-apple {
+        width: 110px;
+    }
+
+    /* for FAQ DIV */
+    .faq-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* justify-content: center;
+        align-items: center;
+        gap: 100px; */
+        max-width: 50rem;
+    }
+
+    details summary {
+        width: 28rem;
+        padding: 0.8rem 0;
+        border-top: 1px solid #8e7f6b;
+        position: relative;
         cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: 300;
+        list-style: none;
     }
 
-    .bar {
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        margin: 2px 0;
+    details summary:after {
+        content: '\25B8';
+        color: #8e7f6b;
+        position: absolute;
+        font-size: 0.8rem;
+        line-height: 0;
+        margin-top: 0.2;
+        margin-right: -1rem;
+        transition: 250ms linear;
     }
 
-    /* .nav-links ul {
-        display: none;
-    } */
+    details[open] summary:after {
+        content: '\25B9';
+        transform: rotate(90deg);
+        font-size: 0.8rem;
+    }
+
+    details summary {
+        outline: 0;
+    }
+
+    details p {
+        width: 28rem;
+        font-size: 0.9rem;
+        margin: 0 0 1rem;
+        padding-top: 1rem;
+    }
+
+    details a {
+        color: #8e7f6b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    details a:hover {
+        text-decoration: underline;
+    }
+
+    /* for FOOTER DIV */
+    .slogan {
+        font-size: 60px;
+    }
+
+    .footer-core {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    .burger-icon {
+        display: block; /* Show the hamburger icon */
+    }
+
+    .menu {
+        display: none; /* Hide the menu by default */
+    }
+
+    /* Show the menu when the checkbox is checked */
+    #burger-toggle:checked + .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Animate the burger icon when the checkbox is checked */
+    #burger-toggle:checked + .burger-icon span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #burger-toggle:checked + .burger-icon span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #burger-toggle:checked + .burger-icon span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
 }
