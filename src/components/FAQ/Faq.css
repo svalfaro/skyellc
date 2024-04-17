@@ -15,12 +15,12 @@ details[open] summary ~ * {
 }
 
 details summary {
-    width: 16rem;
+    width: 40rem;
     padding: 0.8rem 0;
     border-top: 1px solid #8e7f6b;
     position: relative;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 300;
     list-style: none;
 }
@@ -47,8 +47,8 @@ details summary {
 }
 
 details p {
-    width: 16rem;
-    font-size: 0.9rem;
+    width: 40rem;
+    font-size: 1.3rem;
     margin: 0 0 1rem;
     padding-top: 1rem;
 }

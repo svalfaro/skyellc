@@ -1,4 +1,7 @@
 @media only screen and (max-width: 390px) {
+    .section-titles {
+        font-size: 80px;
+    }
     /* for INTRO DIV */
 
     .intro-container {
@@ -43,14 +46,7 @@
     }
 
     .header-logo img {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 80%;
-        width: 38%;
-        height: auto;
-        z-index: 3;
+        visibility: hidden;
     }
 
     .overlay-text-header {
@@ -116,7 +112,7 @@
 
     .service-box {
         height: auto;
-        width: 95vw;
+        width: 90vw;
         /* overflow-x: hidden; */
     }
 
@@ -133,7 +129,21 @@
         flex-direction: column;
     }
 
+    .button-28 {
+        font-size: 12px;
+        width: 45vw;
+    }
+
+    .modal-content h3 {
+        font-size: 24px;
+    }
+
+    .modal-content p {
+        font-size: 13px;
+    }
+
     /* for HIGHLIGHT DIV */
+
     .highlight-header {
         font-size: 6.5vw;
     }
@@ -145,19 +155,6 @@
     .highlight-img {
         max-width: 100px;
         height: auto;
-    }
-
-    .button-28 {
-        font-size: 3.2vw;
-        width: 35vw;
-    }
-
-    .modal-content h3 {
-        font-size: 5vw;
-    }
-
-    .modal-content p {
-        font-size: 3.5vw;
     }
 
     /* for MISSION DIV */
@@ -222,7 +219,7 @@
     }
 
     .app-badge-google {
-        width: 130px;
+        width: 132px;
     }
 
     .app-badge-apple {
@@ -251,7 +248,7 @@
         list-style: none;
     }
 
-    /* details summary:after {
+    details summary:after {
         content: '\25B8';
         color: #8e7f6b;
         position: absolute;
@@ -266,7 +263,7 @@
         content: '\25B9';
         transform: rotate(90deg);
         font-size: 0.8rem;
-    } */
+    }
 
     details summary {
         outline: 0;
@@ -303,7 +300,7 @@
     }
 }
 
-@media only screen and (min-width: 412px) and (max-width: 430px) {
+@media only screen and (min-width: 391px) and (max-width: 430px) {
     /* for INTRO DIV */
 
     .intro-container {
@@ -348,14 +345,7 @@
     }
 
     .header-logo img {
-        position: absolute;
-        top: 29%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 80%;
-        width: 38%;
-        height: auto;
-        z-index: 3;
+        visibility: hidden;
     }
 
     .overlay-text-header {
@@ -424,8 +414,9 @@
         width: 95vw;
     }
 
-    .service-box:hover {
+    .service-box:hover::before {
         visibility: hidden;
+        animation: none;
     }
 
     .overlay-text {
@@ -435,6 +426,19 @@
     .individual-highlights {
         flex-wrap: nowrap;
         flex-direction: column;
+    }
+
+    .button-28 {
+        font-size: 3vw;
+        width: 45vw;
+    }
+
+    .modal-content h3 {
+        font-size: 5vw;
+    }
+
+    .modal-content p {
+        font-size: 3.2vw;
     }
 
     /* for HIGHLIGHT DIV */
@@ -513,7 +517,7 @@
     }
 
     .app-badge-google {
-        width: 130px;
+        width: 132px;
     }
 
     .app-badge-apple {
@@ -532,7 +536,7 @@
     }
 
     details summary {
-        width: 16rem;
+        width: 19rem;
         padding: 0.8rem 0;
         border-top: 1px solid #8e7f6b;
         position: relative;
@@ -542,29 +546,29 @@
         list-style: none;
     }
 
-    /* details summary:after {
-            content: '\25B8';
-            color: #8e7f6b;
-            position: absolute;
-            font-size: 0.8rem;
-            line-height: 0;
-            margin-top: 0.2;
-            margin-right: -1rem;
-            transition: 250ms linear;
-        }
-    
-        details[open] summary:after {
-            content: '\25B9';
-            transform: rotate(90deg);
-            font-size: 0.8rem;
-        } */
+    details summary:after {
+        content: '\25B8';
+        color: #8e7f6b;
+        position: absolute;
+        font-size: 0.8rem;
+        line-height: 0;
+        margin-top: 0.2;
+        margin-right: -1rem;
+        transition: 250ms linear;
+    }
+
+    details[open] summary:after {
+        content: '\25B9';
+        transform: rotate(90deg);
+        font-size: 0.8rem;
+    }
 
     details summary {
         outline: 0;
     }
 
     details p {
-        width: 16rem;
+        width: 19rem;
         font-size: 0.9rem;
         margin: 0 0 1rem;
         padding-top: 1rem;
@@ -594,36 +598,59 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 820px) {
+@media only screen and (min-width: 431px) and (max-width: 820px) {
     .nav-links ul {
         display: none;
     }
+
     /* for INTRO DIV */
 
-    .header-logo img {
-        position: absolute;
-        top: 23%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        max-width: 80%;
-        width: 20%;
+    .img-header-container {
+        position: relative;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .img-header {
+        /* position: relative; */
+        margin-left: -80px;
+        max-width: 50em;
         height: auto;
         z-index: 3;
     }
 
+    .section-titles {
+        font-size: 80px;
+    }
+
     /* for SERVICES DIV */
+
     .service-box {
         height: auto;
-        max-width: 50rem;
+        min-width: 100%;
+        /* overflow-x: hidden; */
     }
 
     .overlay-text {
-        font-size: 3.5em;
+        font-size: 3.2em;
     }
 
     .individual-highlights {
         flex-wrap: nowrap;
         flex-direction: column;
+    }
+
+    .button-28 {
+        font-size: 2.4vw;
+        /* width: 30vw; */
+    }
+
+    .modal-content h3 {
+        font-size: 4.2vw;
+    }
+
+    .modal-content p {
+        font-size: 2.6vw;
     }
 
     /* for PAYMENT DIV */
@@ -675,11 +702,225 @@
     }
 
     .app-badge-google {
-        width: 130px;
+        width: 182px;
     }
 
     .app-badge-apple {
-        width: 110px;
+        width: 150px;
+    }
+
+    /* for FAQ DIV */
+    .faq-box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        max-width: 50rem;
+    }
+
+    details summary {
+        width: 28rem;
+        padding: 0.8rem 0;
+        border-top: 1px solid #8e7f6b;
+        position: relative;
+        cursor: pointer;
+        font-size: 1.1rem;
+        font-weight: 300;
+        list-style: none;
+    }
+
+    details summary:after {
+        content: '\25B8';
+        color: #8e7f6b;
+        position: absolute;
+        font-size: 0.8rem;
+        line-height: 0;
+        margin-top: 0.2;
+        margin-right: -1rem;
+        transition: 250ms linear;
+    }
+
+    details[open] summary:after {
+        content: '\25B9';
+        transform: rotate(90deg);
+        font-size: 0.8rem;
+    }
+
+    details summary {
+        outline: 0;
+    }
+
+    details p {
+        width: 28rem;
+        font-size: 0.9rem;
+        margin: 0 0 1rem;
+        padding-top: 1rem;
+    }
+
+    details a {
+        color: #8e7f6b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    details a:hover {
+        text-decoration: underline;
+    }
+
+    /* for FOOTER DIV */
+    .slogan {
+        font-size: 60px;
+    }
+
+    .footer-core {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        gap: 5px;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /* Show the menu when the checkbox is checked */
+    #burger-toggle:checked + .menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Animate the burger icon when the checkbox is checked */
+    #burger-toggle:checked + .burger-icon span:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    #burger-toggle:checked + .burger-icon span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #burger-toggle:checked + .burger-icon span:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+}
+
+@media only screen and (min-width: 821px) and (max-width: 1024px) {
+    /* .nav-links ul {
+        display: none;
+    } */
+
+    nav a {
+        font-size: 30px;
+    }
+
+    .section-titles {
+        font-size: 80px;
+    }
+
+    /* for INTRO DIV */
+
+    .header-logo img {
+        top: 22%;
+        left: 50%;
+        max-width: 13rem;
+    }
+
+    /* for SERVICES DIV */
+    .service-box {
+        height: auto;
+        min-width: 100%;
+        /* overflow-x: hidden; */
+    }
+
+    .overlay-text {
+        font-size: 3.2em;
+    }
+
+    .button-28 {
+        font-size: 1.8vw;
+        max-width: 28vw;
+    }
+
+    .modal-content h3 {
+        font-size: 3vw;
+    }
+
+    .modal-content p {
+        font-size: 1.8vw;
+    }
+
+    /* for HIGHLIGHT DIV */
+
+    .individual-highlights {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .highlight-header {
+        font-size: 50px;
+    }
+
+    .highlight-description {
+        max-width: 250px;
+    }
+
+    /* for PAYMENT DIV */
+
+    .app-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .img-app-container {
+        width: 50%; /* Ensure the container fills its parent */
+    }
+
+    .img-app-container img {
+        max-width: 70%;
+        height: auto;
+    }
+
+    .mock-second-image {
+        max-width: 30%;
+    }
+
+    .text-app-container {
+        width: 80%; /* Adjust the width as needed */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px; /* Add padding as needed */
+    }
+
+    .overlay-text-two {
+        background-color: green;
+        opacity: 0.5;
+        color: white;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    .app-badges {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .app-badge-google {
+        width: 182px;
+    }
+
+    .app-badge-apple {
+        width: 150px;
     }
 
     /* for FAQ DIV */
