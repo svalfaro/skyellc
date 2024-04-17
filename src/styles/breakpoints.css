@@ -130,6 +130,7 @@
     }
 
     .button-28 {
+        font-family: 'Playfair Display', serif;
         font-size: 12px;
         width: 45vw;
     }
@@ -411,7 +412,8 @@
 
     .service-box {
         height: auto;
-        width: 95vw;
+        /* width: 95vw; */
+        max-width: 25rem;
     }
 
     .service-box:hover::before {
@@ -605,6 +607,14 @@
 
     /* for INTRO DIV */
 
+    .header-title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        padding-left: 40%;
+    }
+
     .img-header-container {
         position: relative;
         width: 100vw;
@@ -641,6 +651,7 @@
     }
 
     .button-28 {
+        font-family: 'Playfair Display', serif;
         font-size: 2.4vw;
         /* width: 30vw; */
     }
@@ -778,33 +789,6 @@
         justify-content: space-evenly;
         gap: 5px;
     }
-
-    .burger-icon {
-        display: block;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    /* Show the menu when the checkbox is checked */
-    #burger-toggle:checked + .menu {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* Animate the burger icon when the checkbox is checked */
-    #burger-toggle:checked + .burger-icon span:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    #burger-toggle:checked + .burger-icon span:nth-child(2) {
-        opacity: 0;
-    }
-
-    #burger-toggle:checked + .burger-icon span:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
 }
 
 @media only screen and (min-width: 821px) and (max-width: 1024px) {
@@ -813,7 +797,11 @@
     } */
 
     nav a {
-        font-size: 30px;
+        font-size: 27px;
+    }
+
+    nav ul {
+        gap: 3px;
     }
 
     .section-titles {
@@ -840,6 +828,7 @@
     }
 
     .button-28 {
+        font-family: 'Playfair Display';
         font-size: 1.8vw;
         max-width: 28vw;
     }
@@ -856,15 +845,15 @@
 
     .individual-highlights {
         flex-wrap: nowrap;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .highlight-header {
-        font-size: 50px;
+        font-size: 55px;
     }
 
     .highlight-description {
-        max-width: 250px;
+        max-width: 350px;
     }
 
     /* for PAYMENT DIV */
@@ -994,32 +983,5 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 5px;
-    }
-
-    .burger-icon {
-        display: block; /* Show the hamburger icon */
-    }
-
-    .menu {
-        display: none; /* Hide the menu by default */
-    }
-
-    /* Show the menu when the checkbox is checked */
-    #burger-toggle:checked + .menu {
-        display: flex;
-        flex-direction: column;
-    }
-
-    /* Animate the burger icon when the checkbox is checked */
-    #burger-toggle:checked + .burger-icon span:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    #burger-toggle:checked + .burger-icon span:nth-child(2) {
-        opacity: 0;
-    }
-
-    #burger-toggle:checked + .burger-icon span:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
     }
 }
