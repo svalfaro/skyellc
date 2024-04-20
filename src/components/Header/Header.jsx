@@ -6,14 +6,20 @@ export default function Header() {
     return (
         <>
             <header>
-                <div className="header-title-container">
+                <div className="img-logo-container">
+                    <img
+                        className="img-header-logo"
+                        src="/assets/skye-circular-logo-light.png"
+                    />
+                </div>
+                {/* <div className="header-title-container">
                     <h1 className="title">
                         <span className="title-top">SKYE</span>
                         <span className="title-bottom">
                             Wellness & Aesthetics
                         </span>
                     </h1>
-                </div>
+                </div> */}
                 <nav className="nav-links">
                     <ul>
                         {NAV_LINKS.map((navLinks, index) => (
