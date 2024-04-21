@@ -9,9 +9,6 @@ export default function Generic() {
                         className="img-header"
                         src="/assets/header.png"
                     />
-                    <div className="header-logo">
-                        <img src="/assets/skye-logo-bcg.png" />
-                    </div>
                     <div className="overlay-text-header">
                         <div className="text-container">
                             <div className="text">

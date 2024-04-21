@@ -14,7 +14,6 @@
     }
 
     .img-header-logo {
-        align-self: center;
         width: 8rem;
         /* padding-top: 25px; */
         /* background-color: green; */
@@ -30,9 +29,8 @@
     }
 
     .text {
-        font-family: 'Playfair Display', serif;
         font-size: 10vw;
-        line-height: 0.8;
+        line-height: 0.9;
         margin-bottom: 10px;
     }
 
@@ -55,8 +53,8 @@
 
     .img-header {
         /* position: relative; */
-        margin-left: -150px;
-        max-width: 60em;
+        margin-left: -100px;
+        max-width: 55em;
         height: auto;
         z-index: 3;
     }
@@ -82,7 +80,6 @@
 
     .header-title-container {
         display: flex;
-        /* background-color: green; */
         justify-content: center;
         align-items: center;
     }
@@ -124,15 +121,11 @@
         display: none;
     }
 
-    .nav-links ul {
-        display: none;
-    }
-
     /* for SERVICE DIV */
 
     .service-box {
         height: auto;
-        width: 90vw;
+        min-width: 90%;
         /* overflow-x: hidden; */
     }
 
@@ -321,20 +314,24 @@
     }
 }
 
-@media only screen and (min-width: 391px) and (max-width: 430px) {
+@media only screen and (min-width: 391px) and (max-width: 429px) {
+    .nav-links {
+        display: none;
+    }
+
     /* for INTRO DIV */
 
     .img-logo-container {
         display: flex;
-        padding-left: 155px;
+        justify-content: center;
+        text-align: center;
         padding-top: 25px;
         padding-bottom: 25px;
         /* background-color: green; */
-        height: auto;
     }
 
     .img-header-logo {
-        width: 8.52rem;
+        width: 10rem;
         /* background-color: green; */
     }
 
@@ -448,7 +445,7 @@
     .service-box {
         height: auto;
         /* width: 95vw; */
-        max-width: 25rem;
+        min-width: 90%;
     }
 
     .service-box:hover::before {
@@ -635,12 +632,29 @@
     }
 }
 
-@media only screen and (min-width: 431px) and (max-width: 820px) {
-    .nav-links ul {
+@media only screen and (min-width: 430px) and (max-width: 820px) {
+    .nav-links {
         display: none;
     }
 
     /* for INTRO DIV */
+
+    .img-logo-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        /* background-color: green; */
+    }
+
+    .img-header-logo {
+        width: 9rem;
+    }
+
+    .intro-container {
+        position: relative;
+    }
 
     .header-title-container {
         display: flex;
@@ -658,21 +672,39 @@
 
     .img-header {
         /* position: relative; */
-        margin-left: -80px;
-        max-width: 50em;
+        margin-left: -120px;
+        max-width: 63em;
         height: auto;
         z-index: 3;
     }
 
     .section-titles {
-        font-size: 80px;
+        font-size: 9.5vw;
+        line-height: 35px;
+    }
+
+    .section-descriptions {
+        font-size: 1.2rem;
+        margin-top: -25px;
+        line-height: 25px;
+        max-width: 21.5rem;
+    }
+
+    .text {
+        font-size: 11vw;
+        line-height: 0.9;
+        margin-bottom: 10px;
+    }
+
+    .text-description {
+        font-size: 3.2vw;
     }
 
     /* for SERVICES DIV */
 
     .service-box {
         height: auto;
-        min-width: 100%;
+        min-width: 90%;
         /* overflow-x: hidden; */
     }
 
