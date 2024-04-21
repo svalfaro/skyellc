@@ -1107,11 +1107,11 @@
     }
 
     .highlight-header {
-        font-size: 55px;
+        font-size: 50px;
     }
 
     .highlight-description {
-        max-width: 350px;
+        max-width: 250px;
     }
 
     /* for PAYMENT DIV */
@@ -1241,6 +1241,10 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-evenly;
-        gap: 50px;
+        gap: 40px;
+    }
+
+    footer dd {
+        font-size: 13px;
     }
 }
