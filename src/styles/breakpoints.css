@@ -680,7 +680,7 @@
 
     .section-titles {
         font-size: 9.5vw;
-        line-height: 35px;
+        line-height: 60px;
     }
 
     .section-descriptions {
@@ -709,7 +709,7 @@
     }
 
     .overlay-text {
-        font-size: 3.2em;
+        font-size: 2.5em;
     }
 
     .individual-highlights {
@@ -858,13 +858,37 @@
     }
 }
 
-@media only screen and (min-width: 821px) and (max-width: 1024px) {
+@media only screen and (min-width: 821px) {
     /* .nav-links ul {
         display: none;
     } */
 
+    .img-logo-container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* background-color: green; */
+    }
+
+    .img-header-logo {
+        width: 9rem;
+        /* padding-top: 25px; */
+        /* background-color: green; */
+    }
+
+    .intro-container {
+        position: relative;
+    }
+
+    .nav-links {
+        /* background-color: pink; */
+        margin-left: 1px;
+    }
+
     nav a {
-        font-size: 27px;
+        font-size: 23px;
     }
 
     nav ul {
@@ -1050,5 +1074,173 @@
         flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 5px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .img-header-logo {
+        width: 10rem;
+    }
+
+    .intro-container {
+        position: relative;
+    }
+
+    nav a {
+        font-size: 30px;
+    }
+
+    /* for SERVICES DIV */
+    .service-box {
+        min-width: 31%;
+    }
+
+    .overlay-text {
+        font-size: 2em;
+    }
+
+    /* for HIGHLIGHT DIV */
+
+    .individual-highlights {
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .highlight-header {
+        font-size: 55px;
+    }
+
+    .highlight-description {
+        max-width: 350px;
+    }
+
+    /* for PAYMENT DIV */
+
+    .app-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 50px;
+    }
+
+    .img-app-container {
+        position: relative; /* Ensure the container is positioned relatively */
+        width: 50%; /* Ensure the container fills its parent */
+    }
+
+    .img-app-container img {
+        max-width: 60%;
+        height: auto;
+    }
+
+    .mock-second-image {
+        position: absolute;
+        max-width: 20%;
+        top: 70px;
+        left: 50%;
+        z-index: 0;
+    }
+
+    .text-app-container {
+        width: 50%; /* Adjust the width as needed */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px; /* Add padding as needed */
+    }
+
+    .overlay-text-two {
+        background-color: green;
+        opacity: 0.5;
+        color: white;
+        font-size: 12px;
+        width: 20%;
+    }
+
+    .app-badges {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .app-badge-google {
+        width: 230px;
+    }
+
+    .app-badge-apple {
+        width: 180px;
+    }
+
+    /* for FAQ DIV */
+
+    details summary {
+        width: 40rem;
+        padding: 0.8rem 0;
+        border-top: 1px solid #8e7f6b;
+        position: relative;
+        cursor: pointer;
+        font-size: 1.5rem;
+        font-weight: 300;
+        list-style: none;
+    }
+
+    details summary:after {
+        content: '\25B8';
+        color: #8e7f6b;
+        position: absolute;
+        font-size: 0.9rem;
+        line-height: 0;
+        margin-top: 0.5rem;
+        right: 0;
+        transition: 250ms linear;
+    }
+
+    details[open] summary:after {
+        content: '\25B9';
+        transform: rotate(90deg);
+        font-size: 0.9rem;
+    }
+
+    details summary {
+        outline: 0;
+    }
+
+    details p {
+        width: 40rem;
+        font-size: 1.3rem;
+        margin: 0 0 1rem;
+        padding-top: 1rem;
+    }
+
+    details a {
+        color: #8e7f6b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    details a:hover {
+        text-decoration: underline;
+    }
+
+    /* for FOOTER DIV */
+    .slogan {
+        font-size: 100px;
+    }
+
+    .footer-img {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .footer-core {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        gap: 50px;
     }
 }
