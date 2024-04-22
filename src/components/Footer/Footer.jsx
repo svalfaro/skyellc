@@ -90,6 +90,16 @@ export default function Footer() {
                         />
                     </svg>
                 </div>
+
+                <div className="credit-label-container">
+                    <div className="copyright-label">
+                        © 2024 SKYE Wellness & Aesthetics. All rights reserved.
+                    </div>
+                    <div className="creator-label">
+                        Designed by{' '}
+                        <a href="mailto:sheilaValfaro@gmail.com">A08</a>
+                    </div>
+                </div>
             </div>
         </footer>
     );

@@ -59,3 +59,8 @@ footer dd {
     gap: 50px;
     max-width: 100%;
 }
+
+.copyright-label,
+.creator-label {
+    font-size: 12px;
+}

@@ -11,6 +11,9 @@ export default function Generic() {
                     />
                     <div className="overlay-text-header">
                         <div className="text-container">
+                            <div className="site-title">
+                                SKYE WELLNESS & AESTHETICS
+                            </div>
                             <div className="text">
                                 PRIORITIZE YOUR
                                 <span className="text-span"> WELL-BEING</span>
@@ -21,9 +24,12 @@ export default function Generic() {
                                 wellness solutions.
                             </div>
                             <div className="button-container">
-                                <a href="https://book.squareup.com/appointments/ywgktytcdyd80f/location/LKDSQ0FC4DCAH/services/">
+                                <a
+                                    target="_blank"
+                                    href="https://skye-wellness-aesthetics.square.site/"
+                                >
                                     <button className="schedule-btn">
-                                        BOOK NOW
+                                        SHOP NOW
                                     </button>
                                 </a>
                             </div>
