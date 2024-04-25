@@ -29,7 +29,7 @@ export default function Service() {
                 >
                     <img
                         src="/assets/serviceOne.png"
-                        alt="facials"
+                        alt="an extractor on a woman's face with 'rejuvenation' overlay"
                     />
                     <div className="overlay-text">
                         <p>REJUVENATION</p>
@@ -41,7 +41,7 @@ export default function Service() {
                 >
                     <img
                         src="/assets/second-im-img.png"
-                        alt="im vitamins"
+                        alt="a syringe with vitamin vial with 'im vitamin' overlay"
                     />
                     <div className="overlay-text">
                         <p>IM VITAMINS</p>
@@ -53,7 +53,7 @@ export default function Service() {
                 >
                     <img
                         src="/assets/serviceThird.png"
-                        alt="weight management service"
+                        alt="a scale with a pair of feet mid-step with 'weight management' overlay"
                     />
                     <div className="overlay-text">
                         <p>WEIGHT MANAGEMENT</p>
@@ -76,6 +76,7 @@ export default function Service() {
                         <img
                             className="modal-logo-img"
                             src="/assets/skye-circular-logo.png"
+                            alt="skye wellness & aesthetics official logo"
                         />
                         <div nameClass="modal-content-container">
                             <h3>FACIAL BENEFITS</h3>
@@ -119,6 +120,7 @@ export default function Service() {
                         <img
                             className="modal-logo-img"
                             src="/assets/skye-circular-logo.png"
+                            alt="skye wellness & aesthetics official logo"
                         />
                         <div nameClass="modal-content-container">
                             <h3>
@@ -162,6 +164,7 @@ export default function Service() {
                         <img
                             className="modal-logo-img"
                             src="/assets/skye-circular-logo.png"
+                            alt="skye wellness & aesthetics official logo"
                         />
                         <div nameClass="modal-content-container">
                             <h3>WEIGHT MANAGEMENT</h3>

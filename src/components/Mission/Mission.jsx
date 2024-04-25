@@ -7,9 +7,9 @@ export default function Mission() {
                 Our aim is to curate a space where modern aesthetic approach and
                 nurturing wellness converge, offering you a unique path to total
                 well-being. With our{' '}
-                <b>
+                <strong>
                     Board Certified Family Nurse Practioner Christine Villamayor
-                </b>
+                </strong>
                 's commitment to personalized care, we invite you to embark on a
                 journey of self-improvement. Let SKYE Wellness & Aesthetics be
                 your partner in achieving a harmonious balance of inner radiance

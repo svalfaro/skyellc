@@ -44,8 +44,9 @@ export default function Faq() {
             <details>
                 <summary>What are your operating hours?</summary>
                 <p>
-                    Currently, SKYE is limited to weekends -- operating from
-                    8:00AM to 1:00PM.
+                    Currently, SKYE is limited to weekends -- operating from{' '}
+                    <time datetime="08:00">8:00</time>am to{' '}
+                    <time datetime="13:00">1:00</time>pm.
                 </p>
             </details>
             <details>

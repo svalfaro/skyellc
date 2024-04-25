@@ -9,7 +9,7 @@ export const NAV_LINKS = [
     },
     {
         id: 'intro',
-        title: 'APPOINTMENT',
+        title: 'SHOP',
     },
     {
         id: 'payment',

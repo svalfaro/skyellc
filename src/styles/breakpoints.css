@@ -317,6 +317,11 @@
         justify-content: space-evenly;
         gap: 5px;
     }
+
+    .copyright-label,
+    .creator-label {
+        font-size: 9px;
+    }
 }
 
 @media only screen and (min-width: 391px) and (max-width: 429px) {

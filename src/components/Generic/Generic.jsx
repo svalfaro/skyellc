@@ -8,12 +8,13 @@ export default function Generic() {
                     <img
                         className="img-header"
                         src="/assets/header.png"
+                        alt="an image of lit candle, oils, and towels"
                     />
                     <div className="overlay-text-header">
                         <div className="text-container">
-                            <div className="site-title">
+                            <h1 className="site-title">
                                 SKYE WELLNESS & AESTHETICS
-                            </div>
+                            </h1>
                             <div className="text">
                                 PRIORITIZE YOUR
                                 <span className="text-span"> WELL-BEING</span>
@@ -22,6 +23,13 @@ export default function Generic() {
                                 natural aesthetic{' '}
                                 <span>treatments & holistic </span>
                                 wellness solutions.
+                            </div>
+                            <div className="button-container">
+                                <a href="#payment">
+                                    <button className="schedule-btn">
+                                        DOWNLOAD APP
+                                    </button>
+                                </a>
                             </div>
                             <div className="button-container">
                                 <a

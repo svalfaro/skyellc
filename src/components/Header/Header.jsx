@@ -10,6 +10,7 @@ export default function Header() {
                     <img
                         className="img-header-logo"
                         src="/assets/skye-circular-logo-light.png"
+                        alt="skye wellness & aesthetics logo, a line drawing of a face"
                     />
                 </div>
                 {/* <div className="header-title-container">

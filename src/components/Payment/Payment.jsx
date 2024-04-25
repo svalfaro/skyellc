@@ -9,10 +9,12 @@ export default function Payment() {
                     <img
                         className="mock-first-image"
                         src="/assets/app-mok.png"
+                        alt="A screenshot of skye wellness & aesthetics app account, bottom"
                     />
                     <img
                         className="mock-second-image"
                         src="/assets/app-mock.png"
+                        alt="A screenshot of skye wellness & aesthetics app account, top."
                     />
                 </div>
                 <div className="text-app-container">
@@ -41,6 +43,7 @@ export default function Payment() {
                             <img
                                 className="app-badge-google"
                                 src="/assets/google-play-badge.png"
+                                alt="android google play store badge"
                             />
                         </a>
                         <a
@@ -51,6 +54,7 @@ export default function Payment() {
                             <img
                                 className="app-badge-apple"
                                 src="/assets/apple-app.svg"
+                                alt="apple app store badge"
                             />
                         </a>
                     </div>

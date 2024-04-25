@@ -1,4 +1,4 @@
-import { CORE_FOOTER } from '/src/components/Footer/footerData.js';
+import { CORE_FOOTER } from '/src/components/Footer/footerData.jsx';
 import './Footer.css';
 
 export default function Footer() {
@@ -26,6 +26,7 @@ export default function Footer() {
                             width="48"
                             height="48"
                             viewBox="0 0 24 24"
+                            alt="Google logo badge"
                         >
                             <path
                                 fill="#514c43"
@@ -44,6 +45,7 @@ export default function Footer() {
                             width="48"
                             height="48"
                             viewBox="0 0 24 24"
+                            alt="Facebook logo badge"
                         >
                             <path
                                 fill="#514c43"
@@ -56,6 +58,7 @@ export default function Footer() {
                         href="https://www.instagram.com/skye.wellness.aesthetics/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        alt="Instagram logo badge"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"

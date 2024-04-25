@@ -6,12 +6,22 @@ export const CORE_FOOTER = [
     },
     {
         heading: 'Hours',
-        description: '8:00am - 1:00pm',
+        description: (
+            <>
+                <time datetime="08:00">8:00</time>am to{' '}
+                <time datetime="13:00">1:00</time>pm.
+            </>
+        ),
         extra: null,
     },
     {
         heading: 'SKYE Wellness & Aesthetics',
-        description: '191 Lefante Way Suite 117 ',
+        // description: '191 Lefante Way Suite 117 ',
+        description: (
+            <>
+                <address>191 Lefante Way Suite 117</address>
+            </>
+        ),
         extra: 'Bayonne, NJ 07002',
     },
     {

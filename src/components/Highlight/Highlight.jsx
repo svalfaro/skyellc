@@ -10,7 +10,7 @@ export default function Highlight() {
                         <img
                             className="highlight-img"
                             src={coreHighlight.img}
-                            alt="highlight image"
+                            alt="line drawing of vials, a bulb, and chart"
                         />
                         <h2 className="highlight-header">
                             {coreHighlight.title}
