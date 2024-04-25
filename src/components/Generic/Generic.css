@@ -15,6 +15,7 @@
     font-weight: 400;
     font-style: thin;
     letter-spacing: 1.5rem;
+    margin-bottom: -10px;
 }
 
 .text {
@@ -22,6 +23,7 @@
     font-size: 7vw;
     line-height: 0.8;
     margin-bottom: 10px;
+    opacity: 0.9;
 }
 
 .text-span {
@@ -31,7 +33,7 @@
 
 .text-description {
     font-family: 'Crimson Text', serif;
-    font-size: 2.5vw;
+    font-size: 1.3rem;
     line-height: 1.5;
 }
 

@@ -65,7 +65,7 @@ export default function Section({ heading, ...props }) {
             {...props}
         >
             <h2 className="section-titles">{section.title}</h2>
-            <p className="section-descriptions">{section.description}</p>
+            <h3 className="section-descriptions">{section.description}</h3>
             <p>{section.component && <section.component />}</p>
         </section>
     );

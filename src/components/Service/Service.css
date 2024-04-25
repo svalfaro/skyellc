@@ -132,6 +132,10 @@ h4 {
     font-size: 23px;
 }
 
+h3 {
+    font-weight: 100;
+}
+
 .modal-content p {
     font-family: 'Georgia';
     font-weight: 400;

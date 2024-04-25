@@ -79,7 +79,7 @@ export default function Service() {
                             alt="skye wellness & aesthetics official logo"
                         />
                         <div nameClass="modal-content-container">
-                            <h3>FACIAL BENEFITS</h3>
+                            <h4>FACIAL BENEFITS</h4>
                             <p>
                                 SKYE facials and treatments are great choices
                                 for healthy, glowing skin without surgery.
@@ -123,9 +123,9 @@ export default function Service() {
                             alt="skye wellness & aesthetics official logo"
                         />
                         <div nameClass="modal-content-container">
-                            <h3>
+                            <h4>
                                 WHAT IS INTRAMUSCULAR (IM) INJECTION TREATMENT?
-                            </h3>
+                            </h4>
                             <p>
                                 Experience the power of our IM Injection
                                 treatment for direct, targeted health benefits.
@@ -167,7 +167,7 @@ export default function Service() {
                             alt="skye wellness & aesthetics official logo"
                         />
                         <div nameClass="modal-content-container">
-                            <h3>WEIGHT MANAGEMENT</h3>
+                            <h4>WEIGHT MANAGEMENT</h4>
                             <p>
                                 SKYE's Weight Management Therapy Program boosts
                                 your body's human growth hormone (hGH) levels to
