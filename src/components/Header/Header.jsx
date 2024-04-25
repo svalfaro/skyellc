@@ -22,6 +22,7 @@ export default function Header() {
                     </h1>
                 </div> */}
                 <nav className="nav-links">
+                    <h2>Main Navigation</h2>
                     <ul>
                         {NAV_LINKS.map((navLinks, index) => (
                             <li key={index}>

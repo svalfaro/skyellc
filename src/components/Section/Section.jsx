@@ -10,9 +10,9 @@ import Mission from '../Mission/Mission';
 const sectionDetails = {
     intro: {
         id: 'intro',
-        title: null,
-        description: null,
-        // 'Innovative aesthetic treatments & holistic wellness solutions.',
+        title: 'PRIORITIZE YOU',
+        description:
+            'Innovative aesthetic treatments & holistic wellness solutions.',
         component: Generic,
     },
     highlight: {
@@ -43,15 +43,15 @@ const sectionDetails = {
     },
     faq: {
         id: 'faq',
-        title: 'Frequently Asked Questions',
+        title: 'FAQ',
         description:
             "Got questions? We've got you covered! Reach out to us for any additional queries you may have.",
         component: Faq,
     },
     footer: {
         id: 'footer',
-        title: null,
-        description: null,
+        title: 'CONNECT WITH US',
+        description: 'Feel and look good',
         component: Footer,
     },
 };

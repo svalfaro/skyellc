@@ -110,3 +110,8 @@
     box-shadow: none;
     transform: translateY(0);
 }
+
+#intro .section-titles,
+#intro .section-descriptions {
+    display: none;
+}

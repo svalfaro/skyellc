@@ -42,6 +42,10 @@ nav {
     letter-spacing: 2.5px;
     /* background-color: green; */
 
+    h2 {
+        display: none;
+    }
+
     ul {
         display: flex;
         /* flex-wrap: wrap; */

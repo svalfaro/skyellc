@@ -15,7 +15,10 @@ body {
     letter-spacing: 1.5px;
 }
 
-h1,
+h1 {
+    display: none;
+}
+
 h2 {
     font-family: 'Aboreto', serif;
     font-weight: 400;

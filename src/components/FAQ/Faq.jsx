@@ -2,7 +2,7 @@ import './Faq.css';
 
 export default function Faq() {
     return (
-        <section className="faq-box">
+        <div className="faq-box">
             <details>
                 <summary>Do I need to make an appointment?</summary>
                 <p>
@@ -71,6 +71,6 @@ export default function Faq() {
                     later.
                 </p>
             </details>
-        </section>
+        </div>
     );
 }

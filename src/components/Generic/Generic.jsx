@@ -12,9 +12,9 @@ export default function Generic() {
                     />
                     <div className="overlay-text-header">
                         <div className="text-container">
-                            <h1 className="site-title">
+                            <p className="site-title">
                                 SKYE WELLNESS & AESTHETICS
-                            </h1>
+                            </p>
                             <div className="text">
                                 PRIORITIZE YOUR
                                 <span className="text-span"> WELL-BEING</span>

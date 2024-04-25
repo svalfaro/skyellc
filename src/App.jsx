@@ -5,8 +5,9 @@ import Section from './components/Section/Section.jsx';
 function App() {
     return (
         <>
-            <Header />
             <main>
+                <h1>SKYE WELLNESS AND AESTHETICS</h1>
+                <Header />
                 <Section heading="intro" />
                 <Section
                     heading="service"

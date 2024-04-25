@@ -64,3 +64,8 @@ footer dd {
 .creator-label {
     font-size: 12px;
 }
+
+#footer .section-titles,
+#footer .section-descriptions {
+    display: none;
+}
