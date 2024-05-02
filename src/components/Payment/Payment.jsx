@@ -53,7 +53,7 @@ export default function Payment() {
                         >
                             <img
                                 className="app-badge-apple"
-                                src="/assets/apple-app-badge.svg"
+                                src="/assets/apple-app-badge.png"
                                 alt="apple app store badge"
                             />
                         </a>
