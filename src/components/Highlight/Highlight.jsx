@@ -9,6 +9,7 @@ export default function Highlight() {
                     <section key={index}>
                         <img
                             className="highlight-img"
+                            loading="lazy"
                             src={coreHighlight.img}
                             alt="line drawing of vials, a bulb, and chart"
                         />

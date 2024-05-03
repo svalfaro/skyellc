@@ -9,6 +9,7 @@ export default function Header() {
                 <div className="img-logo-container">
                     <img
                         className="img-header-logo"
+                        loading="lazy"
                         src="/assets/skye-circular-logo-light.png"
                         alt="skye wellness & aesthetics logo, a line drawing of a face"
                     />

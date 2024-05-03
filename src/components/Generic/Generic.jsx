@@ -7,6 +7,7 @@ export default function Generic() {
                 <div className="img-header-container">
                     <img
                         className="img-header"
+                        loading="lazy"
                         src="/assets/header.png"
                         alt="an image of lit candle, oils, and towels"
                     />

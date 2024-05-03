@@ -29,6 +29,7 @@ export default function Service() {
                 >
                     <img
                         src="/assets/serviceOne.png"
+                        loading="lazy"
                         alt="an extractor on a woman's face with 'rejuvenation' overlay"
                     />
                     <div className="overlay-text">
@@ -41,6 +42,7 @@ export default function Service() {
                 >
                     <img
                         src="/assets/second-im-img.png"
+                        loading="lazy"
                         alt="a syringe with vitamin vial with 'im vitamin' overlay"
                     />
                     <div className="overlay-text">
@@ -53,6 +55,7 @@ export default function Service() {
                 >
                     <img
                         src="/assets/serviceThird.png"
+                        loading="lazy"
                         alt="a scale with a pair of feet mid-step with 'weight management' overlay"
                     />
                     <div className="overlay-text">
